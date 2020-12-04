@@ -32,7 +32,5 @@ menuIcon.addEventListener("click", () => {
   //make hamburger button sliding
   menuIcon.classList.toggle("slide");
 //make body smaller
-for (let i = 0; i < text.length; i++){
-  text[i].classList.toggle('size');
-};
+  text.classList.toggle('size');
 });
